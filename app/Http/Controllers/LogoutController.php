@@ -12,6 +12,6 @@ public function logout()
     Auth::logout();
 
     // Redirect to the desired location after logout
-    return redirect('/home');
+    return redirect('/login');
 }
 }

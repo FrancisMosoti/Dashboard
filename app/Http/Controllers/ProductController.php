@@ -15,6 +15,7 @@ class ProductController extends Controller
         // validation
         $request->validate([
             'name' => 'required|max:255',
+            'rate' => 'required|max:50',
             'price' => 'required|max:2000',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
             'category' => 'required',
@@ -36,6 +37,7 @@ class ProductController extends Controller
             'product_image' => $imagePath,
             'product_price' => $request->input('price'),
             'category'=> $request->input('category'),
+            'rate'=> $request->input('rate'),
             'user_id' => $request->User()->id
         ]);
 

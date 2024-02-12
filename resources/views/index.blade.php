@@ -119,6 +119,7 @@
                             placeholder="Product Name">
                             @error('name')<div class="text-danger">{{ $message }}</div>@enderror
                     </div>
+
                     <div class="col-sm-6">
                         <input type="text" name="price" value="{{ old('price')?old('price'):'' }}" class="form-control form-control-user  @error('price') is-invalid @enderror" id="exampleLastName"
                             placeholder="Product Price">
@@ -140,6 +141,13 @@
                             <option value="Herbicide">
                             </datalist>
                             @error('category')<div class="text-danger">{{ $message }}</div>@enderror
+                    </div>
+                </div>
+                <div class="form-group row">
+                <div class="col-sm-6">
+                        <input type="text" name="rate" value="{{ old('rate')?old('rate'):'' }}" class="form-control form-control-user  @error('rate') is-invalid @enderror" id="exampleLastName"
+                            placeholder="Product Rate">
+                            @error('rate')<div class="text-danger">{{ $message }}</div>@enderror
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary btn-user btn-block">Add Product</button>
