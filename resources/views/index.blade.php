@@ -7,7 +7,7 @@
 <!-- Page Heading -->
 <div class="d-sm-flex align-items-center justify-content-between mb-4">
     <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm"><i
             class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
 </div>
 
@@ -108,7 +108,7 @@
         <!-- Project Card Example -->
         <div class="card shadow mb-4">
             <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">ADD PRODUCTS</h6>
+                <h6 class="m-0 font-weight-bold text-secondary">ADD PRODUCTS</h6>
             </div>
             <div class="card-body">
             <form class="user" action="{{route('add-product')}}" method="post" enctype="multipart/form-data">
@@ -150,7 +150,7 @@
                             @error('rate')<div class="text-danger">{{ $message }}</div>@enderror
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary btn-user btn-block">Add Product</button>
+                <button type="submit" class="btn btn-success btn-user btn-block">Add Product</button>
                 
             </form>
             </div>

@@ -18,16 +18,18 @@ use App\Http\Controllers\ProductController;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('home');
 });
 
-Route::get('/btn', function () {
-    return view('buttons');
-})->name('btn');
+Route::middleware(['auth'])->group(function (){
+    
+Route::get('/btn', function () {return view('buttons');})->name('btn');
 
-Route::get('/home', function () {
-    return view('index');
-})->name('home');
+Route::get('/home', function () { return view('index');})->name('home');
+// product route
+Route::post('/product',[ProductController::class, 'store'])->name('add-product');
+
+});
 
 Route::controller(RegisterControlller::class)->group(function () {
     // Your routes here
@@ -45,5 +47,3 @@ Route::controller(LoginController::class)->group(function () {
 Route::post('/logout',[LogoutController::class, 'logout'])->name('logout');
 Route::get('/logout',[LogoutController::class, 'logout']);
 
-// product route
-Route::post('/product',[ProductController::class, 'store'])->name('add-product');

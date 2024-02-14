@@ -22,7 +22,7 @@
 
 </head>
 
-<body class="bg-gradient-primary">
+<body class="bg-gradient-success">
 
     <div class="container">
 
@@ -62,7 +62,7 @@
                                 @error('password')<div class="text-danger">{{ $message }}</div>@enderror
                                 @error('password_confirmation')<div class="text-danger">{{ $message }}</div>@enderror
 
-                                <button type="submit" class="btn btn-primary btn-user btn-block">Register Account</button>
+                                <button type="submit" class="btn btn-success btn-user btn-block">Register Account</button>
 
                             </form>
                             <hr>
@@ -70,7 +70,7 @@
                                 <a class="small" href="forgot-password.html">Forgot Password?</a>
                             </div>
                             <div class="text-center">
-                                <a class="small" href="login.html">Already have an account? Login!</a>
+                                <a class="small" href="{{route('login')}}">Already have an account? Login!</a>
                             </div>
                         </div>
                     </div>
