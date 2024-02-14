@@ -58,7 +58,7 @@
                                     <p class="card-text">
                                         <small class="text-">Get App Today!</small>
                                     </p>
-                                    <a href="#" class="btn btn-light text-dark">Download App</a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.mkulimapro.mkulimapro" class="btn btn-light text-dark">Download App</a>
     
                                     </button>
                                 </div>
@@ -150,10 +150,10 @@
                     </div>
                 </div>
                 <div class="card bg-light">
-                    <img src="#" class="card-img-top" alt="...">
+                    <img src="images/frank.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><span style="color: rgb(17, 17, 17)">Francis Mosoti</span></h5>
-                        <p class="card-text"><span style="color: rgb(17, 17, 17)">Student, Moi University</span></p>
+                        <p class="card-text"><span style="color: rgb(17, 17, 17)">Developer, Moi University</span></p>
                     </div>
                 </div>
                 <div class="card bg-light">
@@ -207,7 +207,7 @@
                             </div>
                             <div class="text-white">
                                 <p>
-                                    Get the latest version of Mkulima Pro App <a href="#">here</a>!
+                                    Get the latest version of Mkulima Pro App <a href="https://play.google.com/store/apps/details?id=com.mkulimapro.mkulimapro">here</a>!
                                 </p>
                             </div>
                         </div>
