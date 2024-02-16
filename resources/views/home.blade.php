@@ -129,58 +129,83 @@
             </div>
             <div class="card-group">
                 <div class="card bg-light">
-                    <img src="images/nick1.jpeg" class="card-img-top" alt="...">
+
+
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/nick1.jpeg" class="d-block w-100 card-img-top" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/nick2.jpeg" class="d-block w-100 card-img-top" alt="...">
+    </div>
+    <!-- <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div> -->
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+                    <!-- <img src="images/nick1.jpeg" class="card-img-top" alt="..."> -->
                     <div class="card-body">
                         <h5 class="card-title"><span style="color: rgb(17, 17, 17)">Nicholas Ngaruiya</span></h5>
-                        <p class="card-text"><span style="color: rgb(17, 17, 17)">App Developer and ML Expert, Moi University</span></p>
+                        <p class="card-text"><span style="color: rgb(17, 17, 17)">App Developer and ML Expert</span></p>
                     </div>
                 </div>
                 <div class="card bg-light">
                     <img src="images/alice3.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><span style="color: rgb(17, 17, 17)">Alice Njonjo</span></h5>
-                        <p class="card-text"><span style="color: rgb(17, 17, 17)">Developer, Moi University</span></p>
+                        <p class="card-text"><span style="color: rgb(17, 17, 17)">FullStack Developer</span></p>
                     </div>
                 </div>           
                 <div class="card bg-light">
                     <img src="images/havi.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><span style="color: rgb(17, 17, 17)">Elvis Havi</span></h5>
-                        <p class="card-text"><span style="color: rgb(17, 17, 17)">Graphical designer and Developer, Moi University</span></p>
+                        <p class="card-text"><span style="color: rgb(17, 17, 17)">Graphical designer and Developer</span></p>
                     </div>
                 </div>
                 <div class="card bg-light">
                     <img src="images/frank.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><span style="color: rgb(17, 17, 17)">Francis Mosoti</span></h5>
-                        <p class="card-text"><span style="color: rgb(17, 17, 17)">Laravel Developer, Moi University</span></p>
+                        <p class="card-text"><span style="color: rgb(17, 17, 17)">Software Developer</span></p>
                     </div>
                 </div>
                 <div class="card bg-light">
-                <div id="carouselExampleFade" class="carousel slide carousel-fade">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                    <img src="images/habz.jpeg" class="card-img-top d-block w-100" alt="...">
-                    <!-- <img src="" class="d-block w-100" alt="..."> -->
+                <div id="carouselFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="images/habz.jpeg" class="card-img-top d-block w-100" alt="...">
+                        <!-- <img src="" class="d-block w-100" alt="..."> -->
+                        </div>
+                        
+                        <div class="carousel-item">
+                        <img src="images/habz1.jpeg" class="card-img-top d-block w-100" alt="...">
+                        <!-- <img src="" class="d-block w-100" alt="..."> -->
+                        </div>
+                        
+                        
                     </div>
-                    <div class="carousel-item">
-                    <img src="images/habz1.jpeg" class="card-img-top d-block w-100" alt="...">
-                    <!-- <img src="" class="d-block w-100" alt="..."> -->
-                    </div>
-                    
-                    
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-                </div>
-
-
 
 
 
@@ -190,14 +215,14 @@
                     
                     <div class="card-body">
                         <h5 class="card-title"><span style="color: rgb(17, 17, 17)">Habiba Halkano</span></h5>
-                        <p class="card-text"><span style="color: rgb(17, 17, 17)">Developer, Moi University</span></p>
+                        <p class="card-text"> <span style="color: rgb(17, 17, 17)">Software Developer</span></p>
                     </div>
                 </div>
                 <div class="card bg-light">
                     <img src="images/marvin.jpeg" height class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><span style="color: rgb(17, 17, 17)">Marvin Ogutu</span></h5>
-                        <p class="card-text"><span style="color: rgb(17, 17, 17)">App Developer and Engineer, Moi University</span></p>
+                        <p class="card-text"><span style="color: rgb(17, 17, 17)">App Developer and Engineer</span></p>
                     </div>
                 </div>
                 
